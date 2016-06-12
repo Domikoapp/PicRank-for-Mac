@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C50367231D0DB91D00D451D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50367221D0DB91D00D451D4 /* AppDelegate.swift */; };
+		C50367251D0DB91D00D451D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50367241D0DB91D00D451D4 /* ViewController.swift */; };
+		C50367281D0DB91D00D451D4 /* PicRank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C50367261D0DB91D00D451D4 /* PicRank.xcdatamodeld */; };
+		C503672A1D0DB91D00D451D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50367291D0DB91D00D451D4 /* Assets.xcassets */; };
+		C503672D1D0DB91D00D451D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C503672B1D0DB91D00D451D4 /* Main.storyboard */; };
+		C50367381D0DB91D00D451D4 /* PicRankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50367371D0DB91D00D451D4 /* PicRankTests.swift */; };
+		C50367431D0DB91D00D451D4 /* PicRankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50367421D0DB91D00D451D4 /* PicRankUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C50367341D0DB91D00D451D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C50367171D0DB91D00D451D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C503671E1D0DB91D00D451D4;
+			remoteInfo = PicRank;
+		};
+		C503673F1D0DB91D00D451D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C50367171D0DB91D00D451D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C503671E1D0DB91D00D451D4;
+			remoteInfo = PicRank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C503671F1D0DB91D00D451D4 /* PicRank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicRank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50367221D0DB91D00D451D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C50367241D0DB91D00D451D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C50367271D0DB91D00D451D4 /* PicRank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PicRank.xcdatamodel; sourceTree = "<group>"; };
+		C50367291D0DB91D00D451D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C503672C1D0DB91D00D451D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C503672E1D0DB91D00D451D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50367331D0DB91D00D451D4 /* PicRankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicRankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50367371D0DB91D00D451D4 /* PicRankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicRankTests.swift; sourceTree = "<group>"; };
+		C50367391D0DB91D00D451D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C503673E1D0DB91D00D451D4 /* PicRankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicRankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50367421D0DB91D00D451D4 /* PicRankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicRankUITests.swift; sourceTree = "<group>"; };
+		C50367441D0DB91D00D451D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C503671C1D0DB91D00D451D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50367301D0DB91D00D451D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C503673B1D0DB91D00D451D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C50367161D0DB91D00D451D4 = {
+			isa = PBXGroup;
+			children = (
+				C50367211D0DB91D00D451D4 /* PicRank */,
+				C50367361D0DB91D00D451D4 /* PicRankTests */,
+				C50367411D0DB91D00D451D4 /* PicRankUITests */,
+				C50367201D0DB91D00D451D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C50367201D0DB91D00D451D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C503671F1D0DB91D00D451D4 /* PicRank.app */,
+				C50367331D0DB91D00D451D4 /* PicRankTests.xctest */,
+				C503673E1D0DB91D00D451D4 /* PicRankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50367211D0DB91D00D451D4 /* PicRank */ = {
+			isa = PBXGroup;
+			children = (
+				C50367221D0DB91D00D451D4 /* AppDelegate.swift */,
+				C50367241D0DB91D00D451D4 /* ViewController.swift */,
+				C50367291D0DB91D00D451D4 /* Assets.xcassets */,
+				C503672B1D0DB91D00D451D4 /* Main.storyboard */,
+				C503672E1D0DB91D00D451D4 /* Info.plist */,
+				C50367261D0DB91D00D451D4 /* PicRank.xcdatamodeld */,
+			);
+			path = PicRank;
+			sourceTree = "<group>";
+		};
+		C50367361D0DB91D00D451D4 /* PicRankTests */ = {
+			isa = PBXGroup;
+			children = (
+				C50367371D0DB91D00D451D4 /* PicRankTests.swift */,
+				C50367391D0DB91D00D451D4 /* Info.plist */,
+			);
+			path = PicRankTests;
+			sourceTree = "<group>";
+		};
+		C50367411D0DB91D00D451D4 /* PicRankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C50367421D0DB91D00D451D4 /* PicRankUITests.swift */,
+				C50367441D0DB91D00D451D4 /* Info.plist */,
+			);
+			path = PicRankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C503671E1D0DB91D00D451D4 /* PicRank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50367471D0DB91D00D451D4 /* Build configuration list for PBXNativeTarget "PicRank" */;
+			buildPhases = (
+				C503671B1D0DB91D00D451D4 /* Sources */,
+				C503671C1D0DB91D00D451D4 /* Frameworks */,
+				C503671D1D0DB91D00D451D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicRank;
+			productName = PicRank;
+			productReference = C503671F1D0DB91D00D451D4 /* PicRank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C50367321D0DB91D00D451D4 /* PicRankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C503674A1D0DB91D00D451D4 /* Build configuration list for PBXNativeTarget "PicRankTests" */;
+			buildPhases = (
+				C503672F1D0DB91D00D451D4 /* Sources */,
+				C50367301D0DB91D00D451D4 /* Frameworks */,
+				C50367311D0DB91D00D451D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50367351D0DB91D00D451D4 /* PBXTargetDependency */,
+			);
+			name = PicRankTests;
+			productName = PicRankTests;
+			productReference = C50367331D0DB91D00D451D4 /* PicRankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C503673D1D0DB91D00D451D4 /* PicRankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C503674D1D0DB91D00D451D4 /* Build configuration list for PBXNativeTarget "PicRankUITests" */;
+			buildPhases = (
+				C503673A1D0DB91D00D451D4 /* Sources */,
+				C503673B1D0DB91D00D451D4 /* Frameworks */,
+				C503673C1D0DB91D00D451D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50367401D0DB91D00D451D4 /* PBXTargetDependency */,
+			);
+			name = PicRankUITests;
+			productName = PicRankUITests;
+			productReference = C503673E1D0DB91D00D451D4 /* PicRankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C50367171D0DB91D00D451D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Domikoapp;
+				TargetAttributes = {
+					C503671E1D0DB91D00D451D4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C50367321D0DB91D00D451D4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C503671E1D0DB91D00D451D4;
+					};
+					C503673D1D0DB91D00D451D4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C503671E1D0DB91D00D451D4;
+					};
+				};
+			};
+			buildConfigurationList = C503671A1D0DB91D00D451D4 /* Build configuration list for PBXProject "PicRank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C50367161D0DB91D00D451D4;
+			productRefGroup = C50367201D0DB91D00D451D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C503671E1D0DB91D00D451D4 /* PicRank */,
+				C50367321D0DB91D00D451D4 /* PicRankTests */,
+				C503673D1D0DB91D00D451D4 /* PicRankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C503671D1D0DB91D00D451D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C503672A1D0DB91D00D451D4 /* Assets.xcassets in Resources */,
+				C503672D1D0DB91D00D451D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50367311D0DB91D00D451D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C503673C1D0DB91D00D451D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C503671B1D0DB91D00D451D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50367251D0DB91D00D451D4 /* ViewController.swift in Sources */,
+				C50367281D0DB91D00D451D4 /* PicRank.xcdatamodeld in Sources */,
+				C50367231D0DB91D00D451D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C503672F1D0DB91D00D451D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50367381D0DB91D00D451D4 /* PicRankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C503673A1D0DB91D00D451D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50367431D0DB91D00D451D4 /* PicRankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C50367351D0DB91D00D451D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C503671E1D0DB91D00D451D4 /* PicRank */;
+			targetProxy = C50367341D0DB91D00D451D4 /* PBXContainerItemProxy */;
+		};
+		C50367401D0DB91D00D451D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C503671E1D0DB91D00D451D4 /* PicRank */;
+			targetProxy = C503673F1D0DB91D00D451D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C503672B1D0DB91D00D451D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C503672C1D0DB91D00D451D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C50367451D0DB91D00D451D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C50367461D0DB91D00D451D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C50367481D0DB91D00D451D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicRank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domikoapp.PicRank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C50367491D0DB91D00D451D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicRank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domikoapp.PicRank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C503674B1D0DB91D00D451D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicRankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domikoapp.PicRankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicRank.app/Contents/MacOS/PicRank";
+			};
+			name = Debug;
+		};
+		C503674C1D0DB91D00D451D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicRankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domikoapp.PicRankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicRank.app/Contents/MacOS/PicRank";
+			};
+			name = Release;
+		};
+		C503674E1D0DB91D00D451D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicRankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domikoapp.PicRankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicRank;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C503674F1D0DB91D00D451D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicRankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domikoapp.PicRankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicRank;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C503671A1D0DB91D00D451D4 /* Build configuration list for PBXProject "PicRank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50367451D0DB91D00D451D4 /* Debug */,
+				C50367461D0DB91D00D451D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50367471D0DB91D00D451D4 /* Build configuration list for PBXNativeTarget "PicRank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50367481D0DB91D00D451D4 /* Debug */,
+				C50367491D0DB91D00D451D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C503674A1D0DB91D00D451D4 /* Build configuration list for PBXNativeTarget "PicRankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C503674B1D0DB91D00D451D4 /* Debug */,
+				C503674C1D0DB91D00D451D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C503674D1D0DB91D00D451D4 /* Build configuration list for PBXNativeTarget "PicRankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C503674E1D0DB91D00D451D4 /* Debug */,
+				C503674F1D0DB91D00D451D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C50367261D0DB91D00D451D4 /* PicRank.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C50367271D0DB91D00D451D4 /* PicRank.xcdatamodel */,
+			);
+			currentVersion = C50367271D0DB91D00D451D4 /* PicRank.xcdatamodel */;
+			path = PicRank.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C50367171D0DB91D00D451D4 /* Project object */;
+}
